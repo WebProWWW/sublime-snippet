@@ -1,0 +1,71 @@
+<snippet>
+	<content><![CDATA[
+<template>
+<div class="root">
+
+$0
+
+</div><!-- .root -->
+</template>
+
+<!-- * * * * * * * * * * * * * * * CoffeeScript * * * * * * * * * * * * * * * -->
+<script lang="coffee">
+
+# import AppComp from '@/components/AppComp'
+
+export default
+
+    name: '${TM_FILENAME/(.+)\..+|.*/$1/}'
+
+    # components: {}
+
+    # beforeCreate: () ->
+
+    # created: () ->
+
+    # beforeMount: () ->
+
+    # mounted: () ->
+
+    # props:
+
+    # data: () ->
+
+    # methods:
+
+    # computed:
+
+</script>
+
+<!-- * * * * * * * * * * * * * * * * Stylus * * * * * * * * * * * * * * * * * -->
+<style lang="stylus" scoped>
+
+// @require '../fun'
+
+/*
+* Small devices (phones, 576px and up)                          ≥ 576px
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+// @media (min-width: 576px)
+
+/*
+* Medium devices (tablets, 768px and up)                        ≥ 768px
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+// @media (min-width: 768px)
+
+/*
+* Large devices (desktops, 992px and up)                        ≥ 992px
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+// @media (min-width: 992px)
+
+/*
+* Extra large devices (large desktops, 1200px and up)          ≥ 1200px
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+// @media (min-width: 1200px)
+
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vue</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.vue</scope>
+</snippet>
