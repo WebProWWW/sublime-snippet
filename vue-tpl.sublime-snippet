@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
 <template>
-<div class="root">
+<div>
 
 $0
 
-</div><!-- .root -->
+</div><!-- root -->
 </template>
 
 <!-- * * * * * * * * * * * * * * * CoffeeScript * * * * * * * * * * * * * * * -->
