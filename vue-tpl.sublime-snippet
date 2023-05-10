@@ -19,6 +19,12 @@ export default
 
     # components: {}
 
+    # props:
+
+    # emits:
+
+    # setup: (props, context) ->
+
     # beforeCreate: () ->
 
     # created: () ->
@@ -26,8 +32,6 @@ export default
     # beforeMount: () ->
 
     # mounted: () ->
-
-    # props:
 
     # data: () ->
 
