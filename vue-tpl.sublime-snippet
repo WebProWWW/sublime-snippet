@@ -1,52 +1,25 @@
 <snippet>
 	<content><![CDATA[
 <template>
-<div>
-
-$0
-
-</div><!-- root -->
 </template>
 
-<!-- * * * * * * * * * * * * * * * CoffeeScript * * * * * * * * * * * * * * * -->
 <script lang="coffee">
 
-# import AppComp from '@/components/AppComp'
+# import AppComp from '@/components/AppComp.vue'
 
 export default
-
     name: '${TM_FILENAME/(.+)\..+|.*/$1/}'
-
     # components: {}
-
     # props:
-
     # emits:
 
-    # setup: (props, context) ->
-
-    # beforeCreate: () ->
-
-    # created: () ->
-
-    # beforeMount: () ->
-
-    # mounted: () ->
-
-    # data: () ->
-
-    # methods:
-
-    # computed:
-
-    # watch:
+    setup: (props, context) -> {}
 
 </script>
 
-<!-- * * * * * * * * * * * * * * * * Stylus * * * * * * * * * * * * * * * * * -->
 <style lang="stylus" scoped>
 
-// @require '../fun'
+// @require '@/style/lib/fun'
 
 /*
 * Small devices (phones, 576px and up)                          ≥ 576px
