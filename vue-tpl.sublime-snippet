@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-<template>
-</template>
-
 <script lang="coffee">
 
 # import AppComp from '@/components/AppComp.vue'
@@ -16,6 +13,9 @@ export default
     setup: (props, context) -> {}
 
 </script>
+
+<template>
+</template>
 
 <style lang="stylus" scoped>
 
